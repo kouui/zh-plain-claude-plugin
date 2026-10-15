@@ -30,6 +30,11 @@ To try a local checkout without installing: `claude --plugin-dir <this folder>`.
 skills/zh-plain/SKILL.md
 ```
 
+## TODO
+
+- A check script, like `ste-lint.py` in the STE plugin (`uv` single-file script). Only a few Chinese rules can be checked mechanically: sentence length, the number of `的` in a noun phrase, pronouns (`它` `其` `该` `这` `此`) with no clear referent. It may help less than the STE linter, so decide after using the skill for a while.
+- Run the rules on real documents and skills, then drop or reword the rules that do not earn their place.
+
 ## Related
 
 For English text meant for agents, see [ste-claude-plugin](https://github.com/kouui/ste-claude-plugin) (ASD-STE100).
