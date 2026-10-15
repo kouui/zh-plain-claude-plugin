@@ -1,0 +1,11 @@
+{
+  "name": "zh-plain",
+  "description": "Write or rewrite Chinese text so a human or AI agent cannot misread it: documents, skills, prompts, tool descriptions, specs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "kouui"
+  },
+  "homepage": "https://github.com/kouui/zh-plain-claude-plugin",
+  "repository": "https://github.com/kouui/zh-plain-claude-plugin",
+  "keywords": ["chinese", "writing", "plain-language", "prompt", "style"]
+}
